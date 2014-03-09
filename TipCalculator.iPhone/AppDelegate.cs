@@ -4,6 +4,7 @@ using System.Linq;
 
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
+using TipCalculator.PCL;
 
 namespace TipCalculator.iPhone
 {
@@ -11,13 +12,17 @@ namespace TipCalculator.iPhone
     public partial class AppDelegate : UIApplicationDelegate
     {
         UIWindow window;
-        MyViewController viewController;
+		TipCalculatorViewController viewController;
 
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+			// create the location plugin
+			LocationManager.Instance.LocationInstance = new MyLocationiOS();
+
+			// create the main view
             window = new UIWindow(UIScreen.MainScreen.Bounds);
 
-            viewController = new MyViewController();
+			viewController = new TipCalculatorViewController();
             window.RootViewController = viewController;
 
             window.MakeKeyAndVisible();

@@ -8,11 +8,17 @@ using TipCalculator.PCL;
 
 #if WINDOWS_PHONE
 namespace TipCalculator
-#else
+#elif NET_FX
 namespace TipCalculator.WindowsStore
+#else
+namespace TipCalculator.iPhone
 #endif
 {
-    public partial class MainPage 
+	#if WINDOWS_PHONE || NET_FX
+    public partial class MainPage
+	#else
+	public partial class TipCalculatorViewController
+	#endif
     {
 
         private async void InitializeInternal()
@@ -27,8 +33,16 @@ namespace TipCalculator.WindowsStore
 
             // wire up some changes
             this.scrollPeople.ValueChanged += (s, e) => { Calculate(); };
-            this.scrollTip.ValueChanged += (s, e) => { Calculate(); };
+			this.scrollTip.ValueChanged += (s, e) => { Calculate(); };
+			#if WINDOWS_PHONE || NET_FX
             this.txtAmount.TextChanged += (s, e) => { Calculate(); };
+			#else
+			MonoTouch.Foundation.NSNotificationCenter.DefaultCenter.AddObserver
+			(MonoTouch.UIKit.UITextField.TextFieldTextDidChangeNotification, (notification) =>
+				{
+					Calculate();
+				});
+			#endif
 
             // grab current location
             var loc = await LocationManager.Instance.LocationInstance.GetLocation();
