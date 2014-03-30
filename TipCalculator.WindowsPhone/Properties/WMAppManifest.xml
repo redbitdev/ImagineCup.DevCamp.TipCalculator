@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US" />
-  <App xmlns="" ProductID="{6a7bb94e-7fe4-423a-a3c9-6491ce7581a8}" Title="TipCalculator" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="TipCalculator author" Description="Sample description" Publisher="TipCalculator" PublisherID="{60afd55a-05e8-47cb-9bd1-0f2a402384fe}">
+  <App xmlns="" ProductID="{1aef1f5d-3f38-4fe9-bacf-ef4dfb0d36c4}" Title="TipCalculator" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="TipCalculator author" Description="Sample description" Publisher="TipCalculator" PublisherID="{4ca610d2-a0c3-40e0-8c8a-c189d7c8c312}">
     <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />

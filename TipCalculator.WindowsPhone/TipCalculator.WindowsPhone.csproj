@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{6A7BB94E-7FE4-423A-A3C9-6491CE7581A8}</ProjectGuid>
+    <ProjectGuid>{1AEF1F5D-3F38-4FE9-BACF-EF4DFB0D36C4}</ProjectGuid>
     <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -94,7 +94,7 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="LocalizedStrings.cs" />
-    <Compile Include="Mainpage.partial.cs" />
+    <Compile Include="MainPage.partial.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -151,7 +151,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TipCalculator.PCL\TipCalculator.PCL.csproj">
-      <Project>{154551CD-281A-4568-B0C0-55F0AFD1DF0C}</Project>
+      <Project>{2BD6ABDE-35C0-4BA1-9BE6-A59F10F7C77B}</Project>
       <Name>TipCalculator.PCL</Name>
     </ProjectReference>
   </ItemGroup>

@@ -26,13 +26,9 @@ namespace TipCalculator.WindowsStore
         public MainPage()
         {
             this.InitializeComponent();
-
             LocationManager.Instance.LocationInstance = new MyLocationWindowsStore();
-
             InitializeInternal();
-
         }
 
-        
     }
 }

@@ -41,8 +41,10 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock Text="IMAGINE CUP - TIP CALCULATOR" Style="{StaticResource PhoneTextNormalStyle}" Margin="12,0"/>
+            <TextBlock Text="TIP CALCULATOR" Style="{StaticResource PhoneTextNormalStyle}" Margin="12,0" Foreground="#FF0CFF00"/>
         </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
         <StackPanel x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <StackPanel Height="109">
                 <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Total Amount" VerticalAlignment="Top"/>
@@ -68,8 +70,6 @@
 
         </StackPanel>
 
-
-        <!--ContentPanel - place additional content here-->
 
         <!--Uncomment to see an alignment grid to help ensure your controls are
             aligned on common boundaries.  The image has a top margin of -32px to

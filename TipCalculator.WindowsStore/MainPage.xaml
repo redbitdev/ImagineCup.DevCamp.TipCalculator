@@ -8,26 +8,26 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <StackPanel x:Name="ContentPanel" Grid.Row="1" Margin="91,35,277,82">
+        <StackPanel x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <StackPanel Height="109">
-                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Total Amount" VerticalAlignment="Top" FontSize="64"/>
-                <TextBox x:Name="txtAmount" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" InputScope="Number"/>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Total Amount" VerticalAlignment="Top" FontSize="32"/>
+                <TextBox x:Name="txtAmount" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" InputScope="Number" FontSize="26.667"/>
 
             </StackPanel>
             <StackPanel>
-                <TextBlock x:Name="lblTipPercent" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Tip Percentage (15%)" VerticalAlignment="Top" FontSize="64"/>
-                <Slider x:Name="scrollTip" VerticalAlignment="Top" SmallChange="1" Maximum="100" Value="15"/>
+                <TextBlock x:Name="lblTipPercent" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Tip Percentage (15%)" VerticalAlignment="Top" FontSize="32"/>
+                <Slider x:Name="scrollTip" VerticalAlignment="Top" SmallChange="1" Maximum="100" Value="15" Width="1339"/>
 
             </StackPanel>
             <StackPanel>
-                <TextBlock x:Name="lblNumPeople" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Number of People (1)" VerticalAlignment="Top" FontSize="64"/>
+                <TextBlock x:Name="lblNumPeople" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Number of People (1)" VerticalAlignment="Top" FontSize="32"/>
                 <Slider x:Name="scrollPeople" VerticalAlignment="Top" SmallChange="1" Maximum="10" Value="1" Minimum="1"/>
 
             </StackPanel>
             <StackPanel>
-                <TextBlock x:Name="lblTotalCost" TextWrapping="Wrap" Text="Total Cost: " VerticalAlignment="Top" FontSize="64"/>
-                <TextBlock x:Name="lblTotalPerPerson" TextWrapping="Wrap" Text="Total Per Person:" VerticalAlignment="Top" FontSize="64"/>
-                <TextBlock x:Name="lblTipAmount" TextWrapping="Wrap" Text="Total Tip Amount:" VerticalAlignment="Top" FontSize="64"/>
+                <TextBlock x:Name="lblTotalCost" TextWrapping="Wrap" Text="Total Cost: " VerticalAlignment="Top" FontSize="32"/>
+                <TextBlock x:Name="lblTotalPerPerson" TextWrapping="Wrap" Text="Total Per Person:" VerticalAlignment="Top" FontSize="32"/>
+                <TextBlock x:Name="lblTipAmount" TextWrapping="Wrap" Text="Total Tip Amount:" VerticalAlignment="Top" FontSize="32"/>
 
             </StackPanel>
 

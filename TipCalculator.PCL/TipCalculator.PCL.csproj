@@ -5,7 +5,7 @@
     <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{154551CD-281A-4568-B0C0-55F0AFD1DF0C}</ProjectGuid>
+    <ProjectGuid>{2BD6ABDE-35C0-4BA1-9BE6-A59F10F7C77B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TipCalculator.PCL</RootNamespace>
@@ -38,11 +38,12 @@
     <!-- A reference to the entire .NET Framework is automatically included -->
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calculator.cs" />
-    <Compile Include="Location.cs" />
-    <Compile Include="MyLocationBase.cs" />
+    <Compile Include="Models\Location.cs" />
+    <Compile Include="Models\TipTotals.cs" />
+    <Compile Include="Services\LocationManger.cs" />
+    <Compile Include="Services\MyLocationBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TipTotals.cs" />
+    <Compile Include="Services\Calculator.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

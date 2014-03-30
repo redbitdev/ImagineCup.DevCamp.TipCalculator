@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TipCalculator.PCL/Services/Calculator.cs">
+    <Files>
+      <File FileName="TipCalculator.PCL/Services/Calculator.cs" Line="14" Column="35" />
+      <File FileName="TipCalculator/MainPage.partial.cs" Line="66" Column="108" />
+      <File FileName="TipCalculator.Android/Activity1.cs" Line="42" Column="35" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TipCalculator.Android AndroidDeviceId-Debug="04f0aeea8adf11ba" />
+</Properties>

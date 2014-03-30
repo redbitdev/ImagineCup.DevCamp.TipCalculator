@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TipCalculator.PCL;
 
-namespace TipCalculator
+namespace TipCalculator.iPhone
 {
     public class MyLocationiOS : MyLocationBase
     {

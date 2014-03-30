@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{65684274-6524-4D6B-AB56-0200A2EF35AE}</ProjectGuid>
+    <ProjectGuid>{6E1D6D1F-9C8D-45B4-BC60-218DD6624A41}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TipCalculator.WindowsStore</RootNamespace>
@@ -104,13 +104,13 @@
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
     <ProjectReference Include="..\TipCalculator.PCL\TipCalculator.PCL.csproj">
-      <Project>{154551cd-281a-4568-b0c0-55f0afd1df0c}</Project>
+      <Project>{2bd6abde-35c0-4ba1-9be6-a59f10f7c77b}</Project>
       <Name>TipCalculator.PCL</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\TipCalculator.WindowsPhone\Mainpage.partial.cs">
-      <Link>Mainpage.partial.cs</Link>
+    <Compile Include="..\TipCalculator\MainPage.partial.cs">
+      <Link>MainPage.partial.cs</Link>
     </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>

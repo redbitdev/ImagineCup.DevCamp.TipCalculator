@@ -25,3 +25,4 @@ namespace TipCalculator.PCL
         public MyLocationBase LocationInstance { get; set; }
     }
 }
+
