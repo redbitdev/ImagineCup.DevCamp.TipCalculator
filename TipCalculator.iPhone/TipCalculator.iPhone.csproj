@@ -74,7 +74,7 @@
     <CodesignKey>iPhone Distribution</CodesignKey>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\TipCalculator\MainPage.partial.cs">
+    <Compile Include="..\TipCalculator.WindowsPhone\MainPage.partial.cs">
       <Link>MainPage.partial.cs</Link>
     </Compile>
     <Compile Include="Main.cs" />
