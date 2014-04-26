@@ -69,6 +69,6 @@ Global
 		{FA0410E2-2D94-4DE4-B722-197181C00215}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = TipCalculator.Android\TipCalculator.Android.csproj
+		StartupItem = TipCalculator.iPhone\TipCalculator.iPhone.csproj
 	EndGlobalSection
 EndGlobal

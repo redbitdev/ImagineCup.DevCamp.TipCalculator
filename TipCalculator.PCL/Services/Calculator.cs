@@ -31,7 +31,7 @@ namespace TipCalculator.PCL
                 tipTotals.TotalCost = total;
                 tipTotals.TipAmount = total * (tip / 100d);
                 tipTotals.TotalCost += tipTotals.TipAmount;
-                tipTotals.TotalPerPerson = total / totalPeople;
+				tipTotals.TotalPerPerson = tipTotals.TotalCost / totalPeople;
             }
 
             return tipTotals;
